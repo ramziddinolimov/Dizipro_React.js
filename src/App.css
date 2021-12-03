@@ -8,4 +8,13 @@
 ul, ol {
   list-style: none;
 }
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  background-color: black;
+}
 /*# sourceMappingURL=App.css.map */
