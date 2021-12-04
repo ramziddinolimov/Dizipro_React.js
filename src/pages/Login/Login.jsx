@@ -7,7 +7,12 @@ export default function Login () {
         <div className="login">
             <Header />
 
-            <img src={BeeImage} alt="" />
+            <section>
+            <img className="login_bee-image" src={BeeImage} alt="" />
+            <form className="login_form">
+                <h2 className="login_title">Log in</h2>
+            </form>
+            </section>
         </div>
     )
 }

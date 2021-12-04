@@ -13,4 +13,9 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+.header .container .header_language-select-element {
+  border: none;
+  outline: none;
+}
 /*# sourceMappingURL=Header.css.map */

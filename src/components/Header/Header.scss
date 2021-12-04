@@ -5,5 +5,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        & .header_language-select-element{
+            border: none;
+            outline: none;
+        }
     }
 }
