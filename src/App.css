@@ -13,4 +13,9 @@ a {
   text-decoration: none;
   display: inline-block;
 }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=App.css.map */
