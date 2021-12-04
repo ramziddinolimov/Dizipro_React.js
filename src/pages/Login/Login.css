@@ -4,4 +4,21 @@
   background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ffedbb), color-stop(50%, #ffffff));
   background-image: linear-gradient(to right, #ffedbb 0 50%, #ffffff 50% 100%);
 }
+
+.login_main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login_form {
+  width: 50%;
+}
 /*# sourceMappingURL=Login.css.map */
