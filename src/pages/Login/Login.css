@@ -1,5 +1,7 @@
 .login {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffedbb), color-stop(50%, #ffffff), to(100%));
-  background-image: linear-gradient(#ffedbb 0 50%, #ffffff 50%, 100%);
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ffedbb), color-stop(50%, #ffffff), to(100%));
+  background-image: linear-gradient(to right, #ffedbb 0 50%, #ffffff 50%, 100%);
 }
 /*# sourceMappingURL=Login.css.map */
