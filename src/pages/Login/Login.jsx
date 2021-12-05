@@ -11,6 +11,7 @@ export default function Login () {
                 <img className="login_bee-image" src={BeeImage} alt="" />
                 <form className="login_form">
                     <h2 className="login_title">Log in</h2>
+                    <div className="login_form_fill-absolute"></div>
                 </form>
             </section>
         </div>

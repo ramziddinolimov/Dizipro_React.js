@@ -19,6 +19,16 @@
 }
 
 .login_form {
-  width: 50%;
+  width: 35%;
+  border: 1px solid red;
+  position: relative;
+}
+
+.login_form_fill-absolute {
+  position: absolute;
+  height: 100vh;
+  padding: 20px;
+  border: 1px solid black;
+  top: 0;
 }
 /*# sourceMappingURL=Login.css.map */
