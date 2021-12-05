@@ -6,28 +6,36 @@
     &_main-section{
         display: flex;
         width: 100%;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
     }
 
     &_form{
-        width: 35%;
+        width: 70%;
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         border: 1px solid red;
         position: relative;
     }
 
     &_form-wrapper {
+        display: flex;
+        justify-content: center;
         position: absolute;
-        width: 50%;
+        width: 60%;
         background-color: white;
         height: 100vh;
         top: 0;
         right: 0;
         z-index: 0;
+        border-radius:50px 0 0 50px;
     }
 
     &_bee-image {
         z-index: 2;
+        transform: translateX(-70%) translateY(10%);
     }
 }
 

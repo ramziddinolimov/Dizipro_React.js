@@ -9,31 +9,51 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 .login_form {
-  width: 35%;
+  width: 70%;
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border: 1px solid red;
   position: relative;
 }
 
 .login_form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
-  width: 50%;
+  width: 60%;
   background-color: white;
   height: 100vh;
   top: 0;
   right: 0;
   z-index: 0;
+  border-radius: 50px 0 0 50px;
 }
 
 .login_bee-image {
   z-index: 2;
+  -webkit-transform: translateX(-70%) translateY(10%);
+          transform: translateX(-70%) translateY(10%);
 }
 /*# sourceMappingURL=Login.css.map */
