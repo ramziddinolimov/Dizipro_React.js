@@ -1,6 +1,10 @@
-import "./Input.scss";
+import "./input.scss";
 
 
 export default function Input (props) {
-    return <input className="input" {...props} />;
+    return (
+        <label>
+            <input className="input" {...props} />;
+        </label>
+    )
 }

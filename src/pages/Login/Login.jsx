@@ -1,6 +1,7 @@
 import Header from "../../components/Header/Header";
 import "./Login.scss";
 import BeeImage from "../../assets/images/bee.png"
+import Input from "../../components/Input/input";
 
 export default function Login () {
     return (
@@ -12,6 +13,10 @@ export default function Login () {
                 <div className="login_form-wrapper">
                     <form className="login_form">
                          <h2 className="login_title">Log in</h2>
+
+                         <div className="login_form_inputs">
+                             <Input />
+                         </div>
                     </form>
                 </div>
             </section>
