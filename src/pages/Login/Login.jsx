@@ -9,10 +9,11 @@ export default function Login () {
 
             <section className="login_main-section">
                 <img className="login_bee-image" src={BeeImage} alt="" />
-                <form className="login_form">
-                    <h2 className="login_title">Log in</h2>
-                    <div className="login_form_fill-absolute"></div>
-                </form>
+                <div className="login_form-wrapper">
+                    <form className="login_form">
+                         <h2 className="login_title">Log in</h2>
+                    </form>
+                </div>
             </section>
         </div>
     )
