@@ -2,6 +2,7 @@ import Header from "../../components/Header/Header";
 import "./Login.scss";
 import BeeImage from "../../assets/images/bee.png"
 import Input from "../../components/Input/input";
+import { Link } from "react-router-dom";
 
 export default function Login () {
     return (
@@ -29,6 +30,8 @@ export default function Login () {
                                 required
                              />
                          </div>
+
+                         <Link to="/forgot-password">Forgot your password?</Link>
                     </form>
                 </div>
             </section>
