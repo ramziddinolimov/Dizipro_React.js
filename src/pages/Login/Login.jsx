@@ -31,7 +31,7 @@ export default function Login () {
                              />
                          </div>
 
-                         <Link to="/forgot-password">Forgot your password?</Link>
+                         <Link className="login_form_forgot-password-link" to="/forgot-password">Forgot your password?</Link>
                     </form>
                 </div>
             </section>

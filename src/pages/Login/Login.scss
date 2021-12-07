@@ -16,7 +16,6 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        border: 1px solid red;
         position: relative;
 
         &_inputs {
@@ -26,6 +25,10 @@
             .input_wrapper {
                 margin-top: 15px;
             }
+        }
+
+        &_forgot-password-link {
+            margin-top: 20px;
         }
     }
 
