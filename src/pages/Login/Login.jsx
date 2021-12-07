@@ -21,6 +21,13 @@ export default function Login () {
                                 name="email"
                                 required
                              />
+
+                            <Input
+                                type="password"
+                                placeholder="Password"
+                                name="password"
+                                required
+                             />
                          </div>
                     </form>
                 </div>
