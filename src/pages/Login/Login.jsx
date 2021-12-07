@@ -15,7 +15,12 @@ export default function Login () {
                          <h2 className="login_title">Log in</h2>
 
                          <div className="login_form_inputs">
-                             <Input />
+                             <Input
+                                type="email"
+                                placeholder="Email"
+                                name="email"
+                                required
+                             />
                          </div>
                     </form>
                 </div>

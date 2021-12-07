@@ -18,6 +18,11 @@
         flex-direction: column;
         border: 1px solid red;
         position: relative;
+
+        &_inputs {
+            margin-top: 20px;
+            width: 60%;
+        }
     }
 
     &_form-wrapper {
