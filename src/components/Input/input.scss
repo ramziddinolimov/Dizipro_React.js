@@ -4,4 +4,29 @@
     outline: none;
     width: 100%;
     border: 1px solid #bfbbbb;
+    transition: all 0.5s ease-in-out;
+
+    &::placeholder {
+        color: transparent;
+    }
+
+    + label[data-placeholder] {
+        pointer-events: none;
+
+        &:after {
+            content: attr(data-placeholder);
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 24px;
+            transform: translate(0%, -50%);
+            transition: all 0.5s ease-in-out;
+            padding: 0 0.25rem;
+            background-color: rgba(255, 255, 255, 0);
+        }
+    }
+
+    &_wrapper {
+        position: relative;
+    }
 }
