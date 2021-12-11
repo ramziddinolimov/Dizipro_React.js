@@ -27,8 +27,21 @@
             }
         }
 
+        button {
+            width: 25%;
+            margin-top: 20px;
+        }
+
         &_forgot-password-link {
             margin-top: 20px;
+        }
+
+        &_signup-text-wrapper > * {
+            display: inline-block;
+        }
+
+        &_signup-text-wrapper > p {
+            margin-right: 5px;
         }
     }
 

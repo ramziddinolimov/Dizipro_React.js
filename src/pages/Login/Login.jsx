@@ -34,7 +34,12 @@ export default function Login () {
 
                          <Link className="login_form_forgot-password-link" to="/forgot-password">Forgot your password?</Link>
 
-                         <Button>Kirish</Button>
+                         <Button>Login</Button>
+
+                         <div className="login_form_signup-text-wrapper">
+                            <p>Don't have an account?</p>
+                            <Link className="login_form_forgot-password-link" to="/signup">Sign up</Link>
+                         </div>
                     </form>
                 </div>
             </section>
