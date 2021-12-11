@@ -3,6 +3,7 @@ import "./Login.scss";
 import BeeImage from "../../assets/images/bee.png"
 import Input from "../../components/Input/input";
 import { Link } from "react-router-dom";
+import Button from "../../components/Button/Button";
 
 export default function Login () {
     return (
@@ -32,6 +33,8 @@ export default function Login () {
                          </div>
 
                          <Link className="login_form_forgot-password-link" to="/forgot-password">Forgot your password?</Link>
+
+                         <Button>Kirish</Button>
                     </form>
                 </div>
             </section>
