@@ -6,6 +6,10 @@
     border: 1px solid #bfbbbb;
     transition: all 0.3s ease-in-out;
 
+    &.error {
+        border-color: red;
+    }
+
     &::placeholder {
         color: transparent;
     }
@@ -28,7 +32,8 @@
     }
 
     &:focus,
-        &:valid {
+        &:valid,
+        &:not(:placeholder-shown) {
             border-color: #00000077;
 
             + label[data-placeholder] {

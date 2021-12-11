@@ -22,6 +22,7 @@ export default function Login () {
                                 placeholder="Email"
                                 name="email"
                                 required
+                                error={true}
                              />
 
                             <Input
