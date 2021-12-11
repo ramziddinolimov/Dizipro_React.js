@@ -4,7 +4,7 @@ import "./input.scss";
 export default function Input (props) {
     return (
         <div className="input_wrapper">
-            <input className={`input ${props.className} ${props.error && "error-input"}`} 
+            <input className={`input ${props?.className ? props?.className : ""}${props.error && "error-input"}`} 
                 {...props} 
                 autoComplete="off" 
             />
