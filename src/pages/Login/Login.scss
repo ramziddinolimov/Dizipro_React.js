@@ -90,3 +90,54 @@
     }
 }
 
+
+@media (max-width: 1020px) {
+    .login {
+        &_bee-image {
+            width: 330px;
+            z-index: 2;
+            transform: translateX(-70%) translateY(20%);
+        }
+
+    }
+}
+
+@media (max-width: 807px) {
+    .login {
+        &_bee-image {
+            width: 300px;
+            z-index: 2;
+            transform: translateX(-60%) translateY(25%);
+        }
+
+    }
+}
+
+@media (max-width: 777px) {
+    .login {
+        &_main-section{
+            flex-direction: column;
+        }
+        &_bee-image {
+            width: 300px;
+            position: absolute;
+            z-index: 2;
+            transform: translateX(-60%) translateY(25%);
+        }
+
+        &_form-wrapper {
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            background-color: white;
+            height: 60vh;
+            top: auto;
+            right: 0;
+            border-radius: 0;
+        }
+
+    }
+}
+
