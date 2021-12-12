@@ -69,3 +69,24 @@
     }
 }
 
+@media (max-width: 1185px) {
+    .login {
+        &_bee-image {
+            width: 370px;
+            z-index: 2;
+            transform: translateX(-70%) translateY(10%);
+        }
+
+        &_form{
+            &_inputs {
+                margin-top: 20px;
+                width: 80%;
+    
+                .input_wrapper {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+
