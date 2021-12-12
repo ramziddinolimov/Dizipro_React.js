@@ -165,3 +165,16 @@
     }
 }
 
+@media (max-width: 600px) {
+    .login {
+        &_form {
+            width: 90%;
+            padding-top: 30px;
+        }
+
+        &_title {
+            font-size: 30px;
+        }
+    }
+}
+
