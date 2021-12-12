@@ -53,6 +53,7 @@
         background-color: white;
         height: 100vh;
         top: 0;
+        overflow-y: scroll;
         right: 0;
         z-index: 0;
         border-radius:50px 0 0 50px;
@@ -175,6 +176,16 @@
         &_title {
             font-size: 30px;
         }
+    }
+}
+
+@media (max-width: 400px) {
+    .login {
+       &_bee-image {
+           width: 180px;
+           z-index: 0;
+           transform: translateX(-50%) translateY(10%)
+       }
     }
 }
 
