@@ -118,11 +118,29 @@
         &_main-section{
             flex-direction: column;
         }
+
+        &_form {
+            margin: 0;
+            &_inputs {
+                margin-top: 20px;
+                width: 100%;
+                .input_wrapper {
+                    margin-top: 15px;
+                }
+            }
+
+            button {
+                width: 30%;
+                margin-top: 50px;
+            }
+        }
         &_bee-image {
-            width: 300px;
+            width: 200px;
             position: absolute;
             z-index: 2;
-            transform: translateX(-60%) translateY(25%);
+            top: 7%;
+            left: 50%;
+            transform: translateX(-50%);
         }
 
         &_form-wrapper {
@@ -132,10 +150,16 @@
             width: 100%;
             bottom: 0;
             background-color: white;
-            height: 60vh;
+            height: 50vh;
             top: auto;
             right: 0;
-            border-radius: 0;
+            border-radius: 50px 50px 0 0;
+        }
+
+        &_title {
+            margin-top: 100px;
+            font-size:40px;
+            font-weight:900;
         }
 
     }
