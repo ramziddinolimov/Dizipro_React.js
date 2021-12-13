@@ -23,7 +23,7 @@ export default function Registration () {
                                 placeholder="Your name"
                                 name="name"
                                 required
-                                error={true}
+                                
                              />
                              
                              <Input
@@ -31,7 +31,7 @@ export default function Registration () {
                                 placeholder="Email"
                                 name="email"
                                 required
-                                error={true}
+                                
                              />
 
                             <Input
@@ -40,6 +40,20 @@ export default function Registration () {
                                 name="password"
                                 required
                              />
+                         </div>
+
+                         <div className="registration_gender-radio">
+                             <p className="registration_gender_title">Gender</p>
+
+                             <label className="registration_gender_item">
+                                    <input type="radio" name="gender" />
+                                    <p>Male</p>
+                             </label>
+
+                             <label className="registration_gender_item">
+                                    <input type="radio" name="gender" />
+                                    <p>Female</p>
+                             </label>
                          </div>
 
                          <Link className="registration_form_forgot-password-link" to="/forgot-password">Forgot your password?</Link>
