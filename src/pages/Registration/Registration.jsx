@@ -7,16 +7,16 @@ import Button from "../../components/Button/Button";
 
 export default function Registration () {
     return (
-        <div className="login">
+        <div className="registration">
             <Header />
 
-            <section className="login_main-section">
-                <img className="login_bee-image" src={BeeImage} alt="" />
-                <div className="login_form-wrapper">
-                    <form className="login_form">
-                         <h2 className="login_title">Sign Up</h2>
+            <section className="registration_main-section">
+                <img className="registration_bee-image" src={BeeImage} alt="" />
+                <div className="registration_form-wrapper">
+                    <form className="registration_form">
+                         <h2 className="registration_title">Sign Up</h2>
 
-                         <div className="login_form_inputs">
+                         <div className="registration_form_inputs">
                              <Input
                                 type="email"
                                 placeholder="Email"
@@ -33,13 +33,13 @@ export default function Registration () {
                              />
                          </div>
 
-                         <Link className="login_form_forgot-password-link" to="/forgot-password">Forgot your password?</Link>
+                         <Link className="registration_form_forgot-password-link" to="/forgot-password">Forgot your password?</Link>
 
-                         <Button>Login</Button>
+                         <Button>Registration</Button>
 
-                         <div className="login_form_signup-text-wrapper">
+                         <div className="registration_form_signup-text-wrapper">
                             <p>Don't have an account?</p>
-                            <Link className="login_form_forgot-password-link" to="/signup">Sign up</Link>
+                            <Link className="registration_form_forgot-password-link" to="/signup">Sign up</Link>
                          </div>
                     </form>
                 </div>

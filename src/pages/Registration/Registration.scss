@@ -1,4 +1,4 @@
-.login{
+.registration{
     width: 100%;
     height: 100vh;
     background-color:#ffedbb;
@@ -71,7 +71,7 @@
 }
 
 @media (max-width: 1185px) {
-    .login {
+    .registration {
         &_bee-image {
             width: 370px;
             z-index: 2;
@@ -93,7 +93,7 @@
 
 
 @media (max-width: 1020px) {
-    .login {
+    .registration {
         &_bee-image {
             width: 330px;
             z-index: 2;
@@ -104,7 +104,7 @@
 }
 
 @media (max-width: 807px) {
-    .login {
+    .registration {
         &_bee-image {
             width: 300px;
             z-index: 2;
@@ -115,7 +115,7 @@
 }
 
 @media (max-width: 777px) {
-    .login {
+    .registration {
         &_main-section{
             flex-direction: column;
         }
@@ -167,7 +167,7 @@
 }
 
 @media (max-width: 600px) {
-    .login {
+    .registration {
         &_form {
             width: 90%;
             padding-top: 30px;
@@ -180,7 +180,7 @@
 }
 
 @media (max-width: 400px) {
-    .login {
+    .registration {
        &_bee-image {
            width: 180px;
            z-index: 0;
