@@ -1,11 +1,11 @@
 import Header from "../../components/Header/Header";
-import "./Login.scss";
+import "./Registration.scss";
 import BeeImage from "../../assets/images/bee.png"
 import Input from "../../components/Input/input";
 import { Link } from "react-router-dom";
 import Button from "../../components/Button/Button";
 
-export default function Login () {
+export default function Registration () {
     return (
         <div className="login">
             <Header />
@@ -14,7 +14,7 @@ export default function Login () {
                 <img className="login_bee-image" src={BeeImage} alt="" />
                 <div className="login_form-wrapper">
                     <form className="login_form">
-                         <h2 className="login_title">Log in</h2>
+                         <h2 className="login_title">Sign Up</h2>
 
                          <div className="login_form_inputs">
                              <Input
