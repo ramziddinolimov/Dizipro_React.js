@@ -17,6 +17,15 @@ export default function Registration () {
                          <h2 className="registration_title">Sign Up</h2>
 
                          <div className="registration_form_inputs">
+                             
+                            <Input
+                                type="text"
+                                placeholder="Your name"
+                                name="name"
+                                required
+                                error={true}
+                             />
+                             
                              <Input
                                 type="email"
                                 placeholder="Email"
