@@ -4,6 +4,13 @@ import BeeImage from "../../assets/images/bee.png"
 import Input from "../../components/Input/input";
 import { Link } from "react-router-dom";
 import Button from "../../components/Button/Button";
+import Select from 'react-select'
+
+const options = [
+  { value: 'chocolate', label: 'Chocolate' },
+  { value: 'strawberry', label: 'Strawberry' },
+  { value: 'vanilla', label: 'Vanilla' }
+]
 
 export default function Registration () {
     return (
@@ -57,6 +64,8 @@ export default function Registration () {
                                  </label>
                              </div>
                          </div>
+
+                         <Select options={options} />
 
                          <Link className="registration_form_forgot-password-link" to="/forgot-password">Forgot your password?</Link>
 
