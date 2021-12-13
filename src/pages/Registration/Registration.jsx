@@ -45,15 +45,17 @@ export default function Registration () {
                          <div className="registration_gender-radio">
                              <p className="registration_gender_title">Gender</p>
 
-                             <label className="registration_gender_item">
+                             <div className="registration_gender_wrapper">
+                                 <label className="registration_gender_item">
                                     <input type="radio" name="gender" />
                                     <p>Male</p>
-                             </label>
+                                </label>
 
-                             <label className="registration_gender_item">
+                                <label className="registration_gender_item">
                                     <input type="radio" name="gender" />
                                     <p>Female</p>
-                             </label>
+                                 </label>
+                             </div>
                          </div>
 
                          <Link className="registration_form_forgot-password-link" to="/forgot-password">Forgot your password?</Link>
